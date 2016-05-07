@@ -1,0 +1,16 @@
+{
+  "name": "rating",
+  "version": "1.0.0",
+  "description": "An application that allows users to rate a service through email.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "nodemailer": "^2.3.2"
+  }
+}
