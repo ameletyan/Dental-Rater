@@ -3,7 +3,7 @@
 		5/7/2016
 
 		Dental-Rater:
-		A simple app that sends an request for a review over email to a specified address.
+		A simple app that processes ratings sent over email
 */
 
 /* Define all necessary variables */
