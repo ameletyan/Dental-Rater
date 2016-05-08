@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<body>
-		<form action="http://localhost:3000/feedback_1" method="post" target="_blank">
+		<form action="/five_star_feedback" method="post">
 			<label>How did you like the movie <strong>Turfnuts</strong>?</label><br />
 			<select name="rating">
 				<option value="5">★★★★★</option>
@@ -11,10 +11,10 @@
 				<option value="1">★☆☆☆☆</option>
 			</select>
 			<br />
+			Name: <input type="text" name="name"><br>
 			<label for="commentText">Leave a quick review:</label><br />
 			<textarea cols="75" name="commentText" rows="5"></textarea><br />
 			<br />
 			<input type="submit" value="Submit your review" />
-		</form>
 	</body>
 </html>
