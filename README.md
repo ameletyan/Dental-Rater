@@ -24,6 +24,9 @@ Note that this command will delete any database in your local MySQL shell that i
 
 > *npm run build:db*
 
+## Install required NodeJS packages
+> *npm install*
+
 ## Running the program
 > *npm start*
 
